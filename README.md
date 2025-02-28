@@ -1,8 +1,3 @@
-Below is a sample **README.md** file designed for someone with little or no coding background. It explains every step—from installing the necessary software to running the website on your own device—in plain language.
-
----
-
-````markdown
 # Connect Cables Website
 
 Welcome to the Connect Cables website project! This guide will walk you through setting up your programming environment from scratch—even if you have no coding experience. Follow these simple steps to get your website running on your computer.
@@ -113,6 +108,7 @@ This project uses many packages (small programs) that make it work. You need to 
 
 1. In your terminal, make sure you are inside the project folder.
 2. Type the following command and press Enter:
+
 ````
 
 npm install
@@ -161,10 +157,6 @@ Sometimes the browser caches an older version. Try refreshing the page (press `C
 
 If you run into any issues or have questions, please contact the project maintainer or refer to online resources like [Stack Overflow](https://stackoverflow.com) or the [Vite documentation](https://vitejs.dev).
 
-Happy coding and enjoy building your website!
-```
 
----
 
-This README provides clear, step-by-step instructions so that anyone—even without coding experience—can set up the programming environment and run the Connect Cables website on their own device. Feel free to adjust the text and steps as needed for your specific project or audience.
-
+````
