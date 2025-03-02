@@ -10,8 +10,9 @@ import ContactPage from "./pages/ContactPage";
 export default function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
-        <Navbar />
+      <Navbar />
+      {/* Padding-top pushes the content below the fixed navbar */}
+      <div className="pt-16 flex flex-col min-h-screen">
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
