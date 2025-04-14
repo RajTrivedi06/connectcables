@@ -41,17 +41,21 @@ export default function Navbar() {
   const navigation = [
     { title: "Home", path: "/" },
     { title: "About", path: "/about" },
-    { title: "Market", path: "/market" },
+    { title: "Products", path: "/products" },
     { title: "Services", path: "/services" },
     { title: "Blog", path: "/blog" },
+    { title: "Contact", path: "/contact" },
   ]; // Removed Contact from navigation array
 
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/10 border-b border-white/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo/Brand */}
-          <Link to="/" className="text-2xl font-extrabold text-black">
+          {/* Logo/Brand with increased size and nudged further left */}
+          <Link
+            to="/"
+            className="text-3xl font-extrabold text-black transform -translate-x-4"
+          >
             Connect Cables
           </Link>
 
